@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm install -g pnpm && pnpm install --frozen-lockfile && pnpm --filter @workspace/shop run build",
+  "outputDirectory": "apps/shop/dist/public",
   "rewrites": [
     {
       "source": "/(.*)",
